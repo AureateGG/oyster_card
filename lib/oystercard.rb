@@ -1,6 +1,8 @@
 class Oystercard
   CARD_LIMIT = 90
-  CARD_MINIMUM = 1  
+  CARD_MINIMUM = 1
+  PENALTY = 6
+  PRICE = 1  
   attr_reader :balance, :entry_station, :exit_station, :journey_history
 
   def initialize
